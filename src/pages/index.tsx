@@ -3,6 +3,7 @@ import Banner from "../components/Banner";
 import Header from "../components/Header";
 import Main from "../components/Main";
 import Menu from "../components/Menu";
+import Products from "../components/Products";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Menu />
       <Banner />
       <Main />
+      <Products />
     </Flex>
   )
 }

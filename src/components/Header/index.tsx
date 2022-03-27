@@ -1,4 +1,5 @@
-import { Flex, Grid, Image } from "@chakra-ui/react";
+import { Flex, Grid, Icon, Image } from "@chakra-ui/react";
+import {VscSearch} from "react-icons/vsc"
 
 export default function Header() {
   return (
@@ -29,6 +30,7 @@ export default function Header() {
           justifySelf="center"
           gridColumn="2"
         />
+        <Icon as={VscSearch} fontSize={22} gridColumn="3" justifySelf="end" />
       </Grid>
     </Flex>
   );
