@@ -11,7 +11,6 @@ export default function Products() {
         gap={["20px", "33px"]}
         alignItems="center"
         justifyContent="center"
-        // px={["30px", "0"]}
         mt="80px"
       >
         <ProductCard />
