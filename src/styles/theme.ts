@@ -18,6 +18,9 @@ export const theme = extendTheme({
       body: {
         bg: "white",
         color: "dark-gray",
+      },
+      a: {
+        stylelist: "none"
       }
     }
   }

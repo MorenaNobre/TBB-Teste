@@ -1,6 +1,7 @@
 import { Flex } from "@chakra-ui/react";
 import Banner from "../components/Banner";
 import Discoveries from "../components/Discoveries";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Main from "../components/Main";
 import Menu from "../components/Menu";
@@ -17,6 +18,7 @@ export default function Home() {
       <Products />
       <MiddleBanner />
       <Discoveries />
+      <Footer />
     </Flex>
   )
 }
