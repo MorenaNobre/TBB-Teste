@@ -9,7 +9,6 @@ export default function ProductCard() {
         bg="white"
         overflow="hidden"
         w="356px"
-        mb="120px"
       >
         <Image src="/images/wellness.png" h="351px" w="100%" />
         <Flex align="center" justify="space-between" bg="white">
@@ -31,7 +30,6 @@ export default function ProductCard() {
         bg="white"
         overflow="hidden"
         w="356px"
-        mb="120px"
       >
         <Image src="/images/active.png" h="351px" w="100%" />
         <Flex align="center" justify="space-between" bg="white">
@@ -53,7 +51,6 @@ export default function ProductCard() {
         bg="white"
         overflow="hidden"
         w="356px"
-        mb="120px"
       >
         <Image src="/images/agecare.png" h="351px" w="100%" />
         <Flex align="center" justify="space-between" bg="white">

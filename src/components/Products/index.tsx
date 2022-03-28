@@ -4,7 +4,7 @@ import ProductCard from "./ProductCard";
 export default function Products() {
   return (
     <>
-    <Flex mt="120px" align="center" direction="column">
+    <Flex mt="120px" align="center" direction="column" mb="120px">
       <Heading color="blue">our products</Heading>
       <Grid
         templateColumns={["1fr", "1fr 1fr", "repeat(3, 1fr)"]}

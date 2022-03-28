@@ -3,6 +3,7 @@ import Banner from "../components/Banner";
 import Header from "../components/Header";
 import Main from "../components/Main";
 import Menu from "../components/Menu";
+import MiddleBanner from "../components/MiddleBanner";
 import Products from "../components/Products";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Banner />
       <Main />
       <Products />
+      <MiddleBanner />
     </Flex>
   )
 }
