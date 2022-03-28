@@ -6,11 +6,13 @@ import Header from "../components/Header";
 import Main from "../components/Main";
 import Menu from "../components/Menu";
 import MiddleBanner from "../components/MiddleBanner";
+import MobileMenu from "../components/MobileMenu";
 import Products from "../components/Products";
 
 export default function Home() {
   return (
     <Flex direction="column">
+      <MobileMenu />
       <Header />
       <Menu />
       <Banner />

@@ -1,5 +1,5 @@
 import { Flex, Grid, Icon, Image } from "@chakra-ui/react";
-import {VscSearch} from "react-icons/vsc"
+import { VscSearch } from "react-icons/vsc";
 
 export default function Header() {
   return (
@@ -12,6 +12,7 @@ export default function Header() {
       h={["70px", "80px"]}
       align="center"
       justify="center"
+      display={["none", "none", "flex", "flex"]}
     >
       <Grid
         h="100%"

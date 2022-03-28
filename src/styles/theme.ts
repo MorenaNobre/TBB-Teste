@@ -1,13 +1,21 @@
 import { extendTheme } from "@chakra-ui/react";
+import { createBreakpoints } from "@chakra-ui/theme-tools";
+
+const breakpoints = createBreakpoints({
+  sm: "40em",
+  md: "52em",
+  lg: "64em",
+  xl: "80em",
+});
 
 export const theme = extendTheme({
   colors: {
-    "white": "#FFFFFF",
-    "blue": "#389CD6",
+    white: "#FFFFFF",
+    blue: "#389CD6",
     "dark-blue": "#286e96",
     "dark-gray": "#7B7070",
-    "green": "#309D5F",
-    "pink": "#EE6381"
+    green: "#309D5F",
+    pink: "#EE6381",
   },
   fonts: {
     heading: "Trebuchet MS",
@@ -20,8 +28,8 @@ export const theme = extendTheme({
         color: "dark-gray",
       },
       a: {
-        stylelist: "none"
-      }
-    }
-  }
-})
+        stylelist: "none",
+      },
+    },
+  },
+});
