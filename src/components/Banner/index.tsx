@@ -2,12 +2,18 @@ import { Flex, Image } from "@chakra-ui/react";
 
 export default function Banner() {
   return (
-    <Flex>
+    <Flex w="100%">
       <Image
         src="/images/banner-web.png"
         w="100%"
-        h={["250px", "550px"]}
         sizes="cover"
+        display={["none", "none", "flex", "flex"]}
+      />
+      <Image 
+        src="/images/banner-mobile.png"
+        w="100%"
+        sizes="cover"
+        display={["flex", "flex", "none", "none"]}
       />
     </Flex>
   );

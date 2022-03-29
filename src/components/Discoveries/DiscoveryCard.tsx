@@ -3,7 +3,7 @@ import { Box, Flex, Image, Text } from "@chakra-ui/react";
 export default function DiscoveryCard() {
   return (
     <>
-      <Box boxShadow="2xl" rounded="md" bg="white" overflow="hidden" w="356px">
+      <Flex direction="column" boxShadow="2xl" rounded="md" bg="white" overflow="hidden" w="356px">
         <Image src="/images/young-lady.png" h="232px" w="100%" />
         <Flex align="center" justify="space-between" bg="white">
           <Flex direction="column" w="100%">
@@ -12,8 +12,8 @@ export default function DiscoveryCard() {
             </Text>
           </Flex>
         </Flex>
-      </Box>
-      <Box boxShadow="2xl" rounded="md" bg="white" overflow="hidden" w="356px">
+      </Flex>
+      <Flex direction="column" boxShadow="2xl" rounded="md" bg="white" overflow="hidden" w="356px">
         <Image src="/images/old-lady.png" h="232px" w="100%" />
         <Flex align="center" justify="space-between" bg="white">
           <Flex direction="column" w="100%">
@@ -22,8 +22,8 @@ export default function DiscoveryCard() {
             </Text>
           </Flex>
         </Flex>
-      </Box>
-      <Box boxShadow="2xl" rounded="md" bg="white" overflow="hidden" w="356px">
+      </Flex>
+      <Flex direction="column" boxShadow="2xl" rounded="md" bg="white" overflow="hidden" w="356px">
         <Image src="/images/bubbles.png" h="232px" w="100%" />
         <Flex align="center" justify="space-between" bg="white">
           <Flex direction="column" w="100%">
@@ -32,7 +32,7 @@ export default function DiscoveryCard() {
             </Text>
           </Flex>
         </Flex>
-      </Box>
+      </Flex>
     </>
   );
 }

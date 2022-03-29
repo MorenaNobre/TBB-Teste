@@ -6,9 +6,16 @@ export default function MiddleBanner() {
       <Image
         src="/images/middle-banner.png"
         w="100%"
-        h={["237px", "437px"]}
         sizes="cover"
         mb="120px"
+        display={["none", "none", "flex", "flex"]}
+      />
+      <Image
+        src="/images/middle-banner-mobile.png"
+        w="100%"
+        sizes="cover"
+        mb="120px"
+        display={["flex", "flex", "none", "none"]}
       />
     </Flex>
   )

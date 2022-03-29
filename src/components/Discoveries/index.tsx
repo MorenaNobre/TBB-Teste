@@ -4,11 +4,11 @@ import DiscoveryCard from "./DiscoveryCard";
 export default function Discoveries() {
   return (
     <>
-      <Flex align="center" direction="column" mb="120px">
-        <Heading color="blue">keep up to date with our discoveries</Heading>
+      <Flex align="center" direction="column" mb="120px" w="100%" justify="center">
+        <Heading color="blue" textAlign="center">keep up to date with our discoveries</Heading>
         <Grid
-          templateColumns={["1fr", "1fr 1fr", "repeat(3, 1fr)"]}
-          gap={["20px", "33px"]}
+          templateColumns={["1fr","1fr","1fr 1fr","repeat(3, 1fr)"]}
+          gap={["12px","20px", "33px"]}
           alignItems="center"
           justifyContent="center"
           mt="80px"

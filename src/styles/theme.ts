@@ -23,6 +23,8 @@ export const theme = extendTheme({
   },
   styles: {
     global: {
+      margin: "0",
+      padding: "0",
       body: {
         bg: "white",
         color: "dark-gray",
