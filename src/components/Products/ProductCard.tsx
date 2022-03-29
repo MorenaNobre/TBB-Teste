@@ -1,4 +1,5 @@
 import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { SwiperSlide } from "swiper/swiper-react";
 
 export default function ProductCard() {
   return (
@@ -18,6 +19,7 @@ export default function ProductCard() {
           </Flex>
         </Flex>
       </Box>
+
       <Box boxShadow="2xl" rounded="md" bg="white" overflow="hidden" w="356px">
         <Image src="/images/active.png" h="351px" w="100%" />
         <Flex align="center" justify="space-between" bg="white">
@@ -33,6 +35,7 @@ export default function ProductCard() {
           </Flex>
         </Flex>
       </Box>
+
       <Box boxShadow="2xl" rounded="md" bg="white" overflow="hidden" w="356px">
         <Image src="/images/agecare.png" h="351px" w="100%" />
         <Flex align="center" justify="space-between" bg="white">
