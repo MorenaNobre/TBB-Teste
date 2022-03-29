@@ -8,10 +8,6 @@
 
 <br>
 
-<a align="center" href="https://got-moloko.netlify.app/">Deploy</a>
-
-<br>
-
 <hr>
 
 <br>
