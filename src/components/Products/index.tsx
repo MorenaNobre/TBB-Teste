@@ -57,7 +57,7 @@ export default function Products() {
                 overflow="hidden"
                 w="356px"
               >
-                <Image src="/images/wellness.png" h="351px" w="100%" />
+                <Image src="/images/wellness.png" h="351px" w="100%" alt=""/>
                 <Flex align="center" justify="space-between" bg="white">
                   <Flex direction="column" w="100%">
                     <Text p="9" fontSize="20px" textAlign="center">
@@ -88,7 +88,7 @@ export default function Products() {
                 overflow="hidden"
                 w="356px"
               >
-                <Image src="/images/active.png" h="351px" w="100%" />
+                <Image src="/images/active.png" h="351px" w="100%" alt=""/>
                 <Flex align="center" justify="space-between" bg="white">
                   <Flex direction="column" w="100%">
                     <Text p="9" fontSize="20px" textAlign="center">
@@ -119,7 +119,7 @@ export default function Products() {
                 overflow="hidden"
                 w="356px"
               >
-                <Image src="/images/agecare.png" h="351px" w="100%" />
+                <Image src="/images/agecare.png" h="351px" w="100%" alt=""/>
                 <Flex align="center" justify="space-between" bg="white">
                   <Flex direction="column" w="100%">
                     <Text p="9" fontSize="20px" textAlign="center">

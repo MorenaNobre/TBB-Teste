@@ -54,6 +54,7 @@ export default function Footer() {
             h="29px"
             gridColumn="1"
             justifySelf="start"
+            alt=""
           />
           <Link
             href="https://www.instagram.com/intibiome/"
@@ -121,6 +122,7 @@ export default function Footer() {
             h="26px"
             gridColumn="1"
             justifySelf="start"
+            alt=""
           />
         </Flex>
       </Flex>

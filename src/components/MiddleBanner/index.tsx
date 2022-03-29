@@ -9,13 +9,15 @@ export default function MiddleBanner() {
         sizes="cover"
         mb="120px"
         display={["none", "none", "flex", "flex"]}
+        alt=""
       />
       <Image
         src="/images/middle-banner-mobile.png"
         w="100%"
         sizes="cover"
-        mb="120px"
+        mb="60px"
         display={["flex", "flex", "none", "none"]}
+        alt=""
       />
     </Flex>
   )

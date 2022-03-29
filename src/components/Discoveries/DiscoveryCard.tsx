@@ -4,7 +4,7 @@ export default function DiscoveryCard() {
   return (
     <>
       <Flex direction="column" boxShadow="2xl" rounded="md" bg="white" overflow="hidden" w="356px">
-        <Image src="/images/young-lady.png" h="232px" w="100%" />
+        <Image src="/images/young-lady.png" h="232px" w="100%" alt=""/>
         <Flex align="center" justify="space-between" bg="white">
           <Flex direction="column" w="100%">
             <Text p="9" fontSize="20px" textAlign="center">
@@ -14,7 +14,7 @@ export default function DiscoveryCard() {
         </Flex>
       </Flex>
       <Flex direction="column" boxShadow="2xl" rounded="md" bg="white" overflow="hidden" w="356px">
-        <Image src="/images/old-lady.png" h="232px" w="100%" />
+        <Image src="/images/old-lady.png" h="232px" w="100%" alt=""/>
         <Flex align="center" justify="space-between" bg="white">
           <Flex direction="column" w="100%">
             <Text p="9" fontSize="20px" textAlign="center">
@@ -24,7 +24,7 @@ export default function DiscoveryCard() {
         </Flex>
       </Flex>
       <Flex direction="column" boxShadow="2xl" rounded="md" bg="white" overflow="hidden" w="356px">
-        <Image src="/images/bubbles.png" h="232px" w="100%" />
+        <Image src="/images/bubbles.png" h="232px" w="100%" alt=""/>
         <Flex align="center" justify="space-between" bg="white">
           <Flex direction="column" w="100%">
             <Text p="9" fontSize="20px" textAlign="center">

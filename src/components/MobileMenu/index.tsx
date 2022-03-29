@@ -20,7 +20,7 @@ export default function MobileMenu() {
             onClick={() => setDisplay("flex")}
           />
         </Flex>
-        <Image src="/images/logo-mb.png" />
+        <Image src="/images/logo-mb.png" alt=""/>
         <Icon as={VscSearch} color="dark-gray" fontSize="lg" mr={4} />
       </Flex>
 
@@ -47,7 +47,7 @@ export default function MobileMenu() {
               onClick={() => setDisplay("none")}
             />
           </Flex>
-          <Image src="/images/logo-mb.png" />
+          <Image src="/images/logo-mb.png" alt=""/>
           <Icon as={VscSearch} color="dark-gray" fontSize="lg" mr={4} />
         </Flex>
         <Flex direction="column" align="flex-start" gap={10} p={16}>

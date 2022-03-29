@@ -32,41 +32,6 @@ export default function Menu() {
           </Flex>
         </Flex>
       </Flex>
-      {/* <Flex display={["flex", "flex", "none", "none"]} w="100%">
-        <IconButton
-          aria-label="Open Menu"
-          size="lg"
-          mr={2}
-          icon={<GiHamburgerMenu />}
-          bg="transparent"
-        />
-        <Flex
-          w="100vw"
-          bg="blue"
-          color="white"
-          zIndex={20}
-          h="100vh"
-          pos="fixed"
-          top="0"
-          left="0"
-          overflowY="auto"
-          direction="column"
-        >
-          <Flex direction="column" align="flex-start">
-            <Text>brand philosophy</Text>
-            <Text>product tecnology</Text>
-            <Text>all products</Text>
-            <Text>intibione wellness</Text>
-            <Text>intibione active</Text>
-            <Text>intibione agecare</Text>
-            <Text>article 1</Text>
-            <Text>article 2</Text>
-            <Text>article 3</Text>
-            <Text>faq</Text>
-            <Text>contact us</Text>
-          </Flex>
-        </Flex>
-      </Flex> */}
     </>
   );
 }
